@@ -1,4 +1,4 @@
-#wordy
+# wordy
 
 This is a command-line tool for playing and solving Wordle games. It includes multiple functionalities such as playing the game, competing against the solver, getting the best first guess, generating statistics, and running simulations.
 
