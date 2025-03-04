@@ -1,4 +1,4 @@
-# Wordle Solver & Player
+#wordy
 
 This is a command-line tool for playing and solving Wordle games. It includes multiple functionalities such as playing the game, competing against the solver, getting the best first guess, generating statistics, and running simulations.
 
@@ -13,8 +13,8 @@ This is a command-line tool for playing and solving Wordle games. It includes mu
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/wordle-solver.git
-   cd wordle-solver
+   git clone https://github.com/scifre/wordy.git
+   cd wordy
    ```
 2. Install dependencies (if any required):
    ```sh
@@ -27,37 +27,37 @@ Run the program using Python and pass the appropriate command-line arguments:
 ### Playing Wordle
 To play Wordle with a chosen word length (5, 6, or 7 letters):
 ```sh
-python main.py --play 5
+python runner.py --play 5
 ```
 
 ### Competing Against the Solver
 To compete against the solver in a Wordle game:
 ```sh
-python main.py --compete 6
+python runner.py --compete 6
 ```
 
 ### Finding the Best First Guess
 To find the best first guess and its entropy:
 ```sh
-python main.py --first 5
+python runner.py --first 5
 ```
 
 ### Generating Solver Statistics
 To generate statistics related to the solver:
 ```sh
-python main.py --stats 7
+python runner.py --stats 7
 ```
 
 ### Running Solver Simulations
 To run the solver on 100 random words:
 ```sh
-python main.py --run 6
+python runner.py --run 6
 ```
 
 ### Solving a Wordle Word
 To get the best guesses for a specific word:
 ```sh
-python main.py --guess "apple"
+python runner.py --guess "apple"
 ```
 
 ## Contributing
